@@ -13,6 +13,7 @@
 		1CF5A7A2206B5F6200A49096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5A7A1206B5F6200A49096 /* Assets.xcassets */; };
 		1CF5A7A5206B5F6200A49096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5A7A3206B5F6200A49096 /* LaunchScreen.storyboard */; };
 		1CF5A7B0206B5F6200A49096 /* RangeSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A7AF206B5F6200A49096 /* RangeSliderTests.swift */; };
+		1CF5A7BB206B63C900A49096 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A7BA206B63C900A49096 /* RangeSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1CF5A7AB206B5F6200A49096 /* RangeSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangeSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF5A7AF206B5F6200A49096 /* RangeSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderTests.swift; sourceTree = "<group>"; };
 		1CF5A7B1206B5F6200A49096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF5A7BA206B63C900A49096 /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				1CF5A79A206B5F6200A49096 /* AppDelegate.swift */,
 				1CF5A79C206B5F6200A49096 /* ViewController.swift */,
+				1CF5A7BA206B63C900A49096 /* RangeSlider.swift */,
 				1CF5A79E206B5F6200A49096 /* Main.storyboard */,
 				1CF5A7A1206B5F6200A49096 /* Assets.xcassets */,
 				1CF5A7A3206B5F6200A49096 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF5A79D206B5F6200A49096 /* ViewController.swift in Sources */,
+				1CF5A7BB206B63C900A49096 /* RangeSlider.swift in Sources */,
 				1CF5A79B206B5F6200A49096 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
